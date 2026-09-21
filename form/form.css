@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 130px ;
+    border-radius: 10px;
+    border-color: 1px solid black;
+}
+label{
+    color: rgb(255, 0, 0);
+    
+}
+
+#card{
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+
+}
