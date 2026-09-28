@@ -1,0 +1,22 @@
+*
+{
+padding:20px;
+margin:5px;
+box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(170, 183, 157);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#expbtn
+{
+    display: block;
+    margin-left: auto;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="expensetracker.css">
+</head>
+<body>
+
+<div>
+    <h1>EXPENSE LEDGER</h1>
+    <H4>Track what you spend, one line at a time</H4>
+
+    <div class="container">
+
+        <input type="text" id="expenseName" placeholder="Expense name">
+
+        <input type="number" id="amount" placeholder="Amount">
+
+        <select name="category" id="category">
+            <option>select category</option>
+            <option>FOOD</option>
+            <option>FAST FOOD</option>
+            <option>COLD DRINK</option>
+            <option>COLLEGE FEES</option>
+            <option>CLOTHS</option>
+        </select>
+
+        <input type="date" id="date">
+
+    </div>
+
+    <button id="expbtn">ADD EXPENSE</button>
+</div>
+
+<div id="expenseList"></div>
+
+<script src="expensetracker.js"></script>
+
+</body>
+</html>
